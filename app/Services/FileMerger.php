@@ -47,9 +47,6 @@ class FileMerger
 
         unset($template, $size);
 
-        $fpdi->SetFont("helvetica", "", 15);
-        $fpdi->SetTextColor(153,0,153);
-
         $destinationPath = sprintf('%s/app/public', storage_path());
         $filePath = $destinationPath.'/signatures/'.$signatureFile;
 
